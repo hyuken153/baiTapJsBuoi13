@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bai Tap Js Buoi 13</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Bai Tap 1 -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header">Salary</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Working Days</label>
+                <input id="workingDay" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Daily Salary</label>
+                <input id="dailySalary" type="number" class="form-control" />
+              </div>
+            </div>
+            <button class="btn btn-success" onclick="grossSalary()">
+              Result
+            </button>
+            <div id="showSalary" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bai Tap 2 -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header">Average</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Number 1</label>
+                <input id="number1" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Number 2</label>
+                <input id="number2" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Number 3</label>
+                <input id="number3" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Number 4</label>
+                <input id="number4" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Number 5</label>
+                <input id="number5" type="number" class="form-control" />
+              </div>
+            </div>
+            <button class="btn btn-success" onclick="average()">Result</button>
+            <div id="showAverage" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bai Tap 3 -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header">Convert USD to VND</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>USD Amount</label>
+                <input id="usdCurrentcy" type="number" class="form-control" />
+              </div>
+            </div>
+            <button class="btn btn-success" onclick="totalExchanged()">
+              Result
+            </button>
+            <div id="showVND" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bài Tập 4 -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header">Area and Perimeter of rectangle</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Length of rectangle</label>
+                <input id="length" type="number" class="form-control" />
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Width of rectangle</label>
+                <input id="width" type="number" class="form-control" />
+              </div>
+            </div>
+            <button id="btnResult" class="btn btn-success">Result</button>
+            <div id="showResult" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bài Tập 5 -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header">Fun with Numbers</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Pick your number</label>
+                <input id="number" type="number" class="form-control" />
+              </div>
+            </div>
+            <button id="btnNumber" class="btn btn-success">Result</button>
+            <div id="showValue" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
